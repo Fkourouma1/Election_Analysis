@@ -1,0 +1,2 @@
+# Election_Analysis
+# Election_Analysis In this project, We are assisting Tom, a Colorado Board of Election employee in an audit election. We will be analyze and report vote casque, vote for each candidate, the total percentage  , vote cast the winners of the election. The primary voting we will take in consideration are mailing balance punch card and direct recording Machine(tabulate vote total). We will be using Python to accomplish this project. 
