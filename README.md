@@ -25,3 +25,6 @@ The report of the election show that:
 - The winner of the election were: 
 - Diana DeGette who received 73.8% of the vote and 272,892 number of votes.
 
+The voter turnout for each county
+The percentage of votes from each county out of the total count
+The county with the highest turnout
