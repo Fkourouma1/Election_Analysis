@@ -25,15 +25,16 @@ The report of the election show that:
     -  Charles Casper Stockham with 23.0% of the vote and 85,213 number of votes
     - Diana DeGette with 73.8% of the vote and 272,892 number of votes
     - Raymon Anthony Doane with 3.1% of the vote and 11,606 number of votes.
+We added the vote to the candidate name by using this formula : candidate_votes[candidate_name] += 1.
 - The winner of the election were: 
     - Diana DeGette who received 73.8% of the vote and 272,892 number of votes.
 - The vote and percentage turnout for each county: 
     - Arapahoe county :  votes with %
     - Denver county :  votes with %
     - Jefferson county :  votes with %
-We calculate the percentage vote by using this formula : vote_percentage = float(votes) / float(total_votes) * 100 
-- The largest turnout country : 
+We calculate the percentage vote by using this formula : vote_percentage = float(votes) / float(total_votes) * 100. Then we had to write an if statement to get the county name listed just once. The way we did that was by checking in the county does not match any existing county in the county list, we add the existing county to the list.
+- The largest turnout county : 
     - 
-## Election_Audit Summary 
 ## Election_Audit Summary
-
+My proposition in this project would be to use this script to be use in the state elections 
+Election city and the state.
