@@ -29,12 +29,11 @@ We added the vote to the candidate name by using this formula : candidate_votes[
 - The winner of the election were: 
     - Diana DeGette who received 73.8% of the vote and 272,892 number of votes.
 - The vote and percentage turnout for each county: 
-    - Arapahoe county :  votes with %
-    - Denver county :  votes with %
-    - Jefferson county :  votes with %
+    - Arapahoe county : 24,801 votes with 6.7%
+    - Denver county : 306,055 votes with 82.8%
+    - Jefferson county : 38,855 votes with 10.5 %
 We calculate the percentage vote by using this formula : vote_percentage = float(votes) / float(total_votes) * 100. Then we had to write an if statement to get the county name listed just once. The way we did that was by checking in the county does not match any existing county in the county list, we add the existing county to the list.
 - The largest turnout county : 
-    - 
+    - Denver
 ## Election_Audit Summary
-My proposition in this project would be to use this script to be use in the state elections 
-Election city and the state.
+My proposition in this project would be to use this script to be use in the National election. We would want to the the winner in a specific state by initializing the state vote,country total vote, state percentage vote and assigning to a variable. So an example would be state_vote = 0 , state_percentage = 0, state_winner = "". We would calulate to percentage by using this formula: state_percentage = float(state_votes) / float(float(country_votes) * 100.
