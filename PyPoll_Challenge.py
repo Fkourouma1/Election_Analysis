@@ -32,13 +32,13 @@ voter_turnout = 0
 
 # Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
-    reader = csv.reader(election_data)
+    file_reader = csv.reader(election_data)
 
     # Read the header
-    header = next(reader)
+    headers = next(file_reader)
 
     # For each row in the CSV file.
-    for row in reader:
+    for row in file_reader:
 
         # Add to the total vote count
         total_votes = total_votes + 1
@@ -79,12 +79,11 @@ with open(file_to_load) as election_data:
 with open(file_to_save, "w") as txt_file:
 
     # Print the final vote count (to terminal)
-    election_results = (
-        f"\nElection Results\n"
-        f"-------------------------\n"
-        f"Total Votes: {total_votes:,}\n"
-        f"-------------------------\n\n"
-        f"County Votes:\n")
+    election_results = f'''Election Results
+    ----------------------
+    Total Votes: {total_votes:,}
+    ----------------------
+    County Votes:'''
     print(election_results, end="")
 
     txt_file.write(election_results)
